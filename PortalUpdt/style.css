@@ -1,0 +1,143 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 2px;
+}
+
+h2{
+    padding-top: 15px;
+    font-size: 25px;
+    text-align: center;
+}
+
+a:hover{
+    background-color: blue;
+    padding: 20px;
+}
+
+img:hover{
+    background-color: rgba(255, 255, 255, 0.753);
+    padding: 10px;
+}
+
+body > header{
+    background-color: #2f3640;
+    padding: 16px 0;
+    color:#f9f6fa;
+}
+
+header .container{
+    display: flex;
+}
+
+header li{
+    display: inline;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    margin-left:16px;
+}
+
+header li a{
+    color:#f5f6fa;
+    text-decoration: none;
+}
+
+
+#economy {
+    background-color: #fffa65;
+}
+
+#economy .articles article a{
+    background-color: #ff9f1a;
+}
+
+#culinária{
+    background-color: #ff9a3b;
+}
+
+#culinária .articles article a{
+    background-color: #2125ff;
+}
+
+#moda{
+    background-color: #ba7ffd;
+}
+
+.moda .articles article a{
+    background-color: #851aff;
+}
+
+header .container{
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.container{
+    width: 1366px;
+    margin: 0 auto;
+}
+
+article{
+    margin: 20px;
+}
+.articles{
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.articles article img{
+    /*  height:100px; */
+    height: 180px;
+}
+
+
+.articles article{
+    width: 30%;
+}
+
+.articles article p, .articles article a{
+    font-family: Arial, Arial, Helvetica, sans-serif;
+}
+
+.articles article h3{
+    font-size: 24px;
+}
+
+.articles article a:hover{
+    text-decoration: underline;
+}
+
+section h2{
+    font-size: 32px;
+}
+
+#sports .articles article a{
+    background-color: rgba(0,255,0,0.1);    
+}
+
+section{
+    padding:16px 0;
+}
+
+section h2, .articles article{
+    margin-bottom: 16px;
+}
+
+.articles article h3{
+    margin-top: 8px;
+    margin-bottom: 8px;
+}
+
+
+.articles article a{
+    background-color: blue;
+    color:#fff;
+    padding:8px;
+    display: inline-block;
+    text-decoration: none;
+    font-weight:bold;
+    margin-top:8px;
+}
